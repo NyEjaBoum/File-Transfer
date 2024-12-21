@@ -1,0 +1,25 @@
++-------------------+----------------------------------------------+---------------------------+
+| Classe            | Usage principal                             | Type de données          |
++-------------------+----------------------------------------------+---------------------------+
+| FileInputStream   | Lire des fichiers binaires (octet par octet) | Octets bruts             |
+| FileOutputStream  | Écrire des fichiers binaires (octet par octet)| Octets bruts            |
+| DataInputStream   | Lire des données primitives à partir d'un flux binaire | Primitifs et chaînes UTF |
+| DataOutputStream  | Écrire des données primitives dans un flux binaire    | Primitifs et chaînes UTF |
++-------------------+----------------------------------------------+---------------------------+
+
+
+replication 
+
+anaty serveur 1 part 1 2 part 2 3 part 3
+vao mahazo part ray zareo d manao replication am serveur ray d master (serveur ngeza be)
+
+miconnecte client d miteny anle master  hoe ty mba uploadena, d mijery za hoe iza daholo serveur zanany ananako anaty conf 
+d alefa amzareo ny part misy maty ohatra ny ray d zay maty tsy handefasana 
+
+d aveo tenenina hoe ny fichier ty d part 1 amzao 2 amzao d 3 amzao 
+
+dia vao azo ilay slive kely ny part d manontany anle serveur zareo hoe reto daholo slive donc ip3 mahazo part 3 no mahazo info ip1 ip2 
+
+et puis le ip2 envoie sa part a ip2 dia mifandefa zareo d manao mise a jour lay master hoe ty part ty d lasa ato 
+
+ 

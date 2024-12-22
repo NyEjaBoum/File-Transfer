@@ -33,7 +33,7 @@ public class FileClient {
                 uploadFile(request, fileToUpload);
             }
 
-            String status = response.readUTF();
+            //String status = response.readUTF();
             /*if (!status.equals("UPLOAD_OK")) {
                 throw new IOException("Erreur lors de l'upload: " + status);
             }*/
